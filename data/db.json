@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -72,6 +72,14 @@
       "characters": "Dan Garret, Ted Kord, Jaime Reyes"
     },
     {
+      "id": "dc-black",
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
+      "alter_ego": "Dinah Drake",
+      "first_appearance": "Flash Comics #86",
+      "characters": "Dinah Drake, Dinah Lance"
+    },
+    {
       "id": "marvel-spider",
       "superhero": "Spider Man",
       "publisher": "Marvel Comics",
@@ -136,21 +144,20 @@
       "characters": "Clinton Francis Barton"
     },
     {
+      "id": "marvel-cyclops",
+      "superhero": "Cyclops",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Scott Summers",
+      "first_appearance": "X-Men #1",
+      "characters": "Scott Summers"
+    },
+    {
       "id": "marvel-silver",
       "superhero": "Silver Surfer",
       "publisher": "Marvel Comics",
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "oNo73D0",
-      "superhero": "LIZZIE OLSEN",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Wanda",
-      "first_appearance": "Marvel ",
-      "characters": "Elizabeth",
-      "alt_img": "https://c.wallhere.com/photos/da/33/red_eyes_glowing_eyes_Scarlet_Witch_Wanda_maximoff_fan_art_digital_art_Marvel_Girl_Marvel_Comics-1932375.jpg!d"
     }
   ]
 }

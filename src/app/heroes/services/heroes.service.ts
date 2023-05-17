@@ -11,17 +11,17 @@ export class HeroesService {
 
   constructor(private http: HttpClient) { }
 
-  getHeroes():Observable<Hero[]>{
-    return this.http.get<Hero[]>(`${this.baseUrl}/heroes`);
-  }
+    getHeroes():Observable<Hero[]>{
+      return this.http.get<Hero[]>(`${this.baseUrl}/heroes`);
+    }
 
-  getHeroById(id:string) : Observable<Hero | undefined>{
-    return this.http.get<Hero>(`${this.baseUrl}/heroes/${id}`)
-    .pipe(
-      catchError( error => of (undefined) )
-    );
+    getHeroById(id:string) : Observable<Hero | undefined>{
+      return this.http.get<Hero>(`${this.baseUrl}/heroes/${id}`)
+      .pipe(
+        catchError( error => of (undefined) )
+      );
 
-  }
+    }
 
     getSuggestion(query:string):Observable<Hero[]>{
       return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${query}&_limit=6`);
