@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>You Sure? Se eliminara el Heroe {{data.superhero}}</h1>
+<div mat-dialog-content>
+  <p>No se revertiran los cambios.</p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <span class="spacer"></span>
+  <button mat-button (click)="onConfirm()" color="primary" cdkFocusInitial>Siuu</button>
+</div>
